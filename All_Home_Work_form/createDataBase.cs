@@ -20,6 +20,7 @@ namespace All_Home_Work_form
         public createDataBase()
         {
             InitializeComponent();
+
         }
 
         private void CreateBT_Click(object sender, EventArgs e)
