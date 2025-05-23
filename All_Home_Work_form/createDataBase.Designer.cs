@@ -42,103 +42,115 @@
             // 
             // CreateBT
             // 
+            this.CreateBT.BackColor = System.Drawing.Color.Lime;
             this.CreateBT.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreateBT.Location = new System.Drawing.Point(207, 268);
+            this.CreateBT.Location = new System.Drawing.Point(241, 330);
+            this.CreateBT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CreateBT.Name = "CreateBT";
-            this.CreateBT.Size = new System.Drawing.Size(136, 60);
+            this.CreateBT.Size = new System.Drawing.Size(159, 74);
             this.CreateBT.TabIndex = 0;
             this.CreateBT.Text = "Create";
-            this.CreateBT.UseVisualStyleBackColor = true;
+            this.CreateBT.UseVisualStyleBackColor = false;
             this.CreateBT.Click += new System.EventHandler(this.CreateBT_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(26, 190);
+            this.label2.Location = new System.Drawing.Point(30, 234);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 24);
+            this.label2.Size = new System.Drawing.Size(120, 29);
             this.label2.TabIndex = 15;
             this.label2.Text = "Password";
             // 
             // Paseword
             // 
             this.Paseword.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Paseword.Location = new System.Drawing.Point(178, 187);
+            this.Paseword.Location = new System.Drawing.Point(208, 230);
+            this.Paseword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Paseword.Name = "Paseword";
-            this.Paseword.Size = new System.Drawing.Size(165, 27);
+            this.Paseword.Size = new System.Drawing.Size(192, 32);
             this.Paseword.TabIndex = 14;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(26, 137);
+            this.label3.Location = new System.Drawing.Point(30, 169);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 24);
+            this.label3.Size = new System.Drawing.Size(135, 29);
             this.label3.TabIndex = 13;
             this.label3.Text = "User Name";
             // 
             // UserName
             // 
             this.UserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UserName.Location = new System.Drawing.Point(178, 134);
+            this.UserName.Location = new System.Drawing.Point(208, 165);
+            this.UserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(165, 27);
+            this.UserName.Size = new System.Drawing.Size(192, 32);
             this.UserName.TabIndex = 12;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(26, 84);
+            this.label1.Location = new System.Drawing.Point(30, 103);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 24);
+            this.label1.Size = new System.Drawing.Size(179, 29);
             this.label1.TabIndex = 11;
             this.label1.Text = "New DataBase ";
             // 
             // DatabaseName
             // 
             this.DatabaseName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DatabaseName.Location = new System.Drawing.Point(178, 81);
+            this.DatabaseName.Location = new System.Drawing.Point(208, 100);
+            this.DatabaseName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DatabaseName.Name = "DatabaseName";
-            this.DatabaseName.Size = new System.Drawing.Size(165, 27);
+            this.DatabaseName.Size = new System.Drawing.Size(192, 32);
             this.DatabaseName.TabIndex = 10;
             // 
             // textServer
             // 
             this.textServer.AutoSize = true;
             this.textServer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textServer.Location = new System.Drawing.Point(26, 31);
+            this.textServer.Location = new System.Drawing.Point(30, 38);
+            this.textServer.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.textServer.Name = "textServer";
-            this.textServer.Size = new System.Drawing.Size(121, 24);
+            this.textServer.Size = new System.Drawing.Size(155, 29);
             this.textServer.TabIndex = 9;
             this.textServer.Text = "Server Name";
             // 
             // ServerName
             // 
             this.ServerName.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ServerName.Location = new System.Drawing.Point(178, 28);
+            this.ServerName.Location = new System.Drawing.Point(208, 34);
+            this.ServerName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ServerName.Name = "ServerName";
-            this.ServerName.Size = new System.Drawing.Size(165, 27);
+            this.ServerName.Size = new System.Drawing.Size(192, 32);
             this.ServerName.TabIndex = 8;
             // 
             // BackBt
             // 
+            this.BackBt.BackColor = System.Drawing.Color.Red;
             this.BackBt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BackBt.Location = new System.Drawing.Point(30, 268);
+            this.BackBt.Location = new System.Drawing.Point(35, 330);
+            this.BackBt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BackBt.Name = "BackBt";
-            this.BackBt.Size = new System.Drawing.Size(136, 60);
+            this.BackBt.Size = new System.Drawing.Size(159, 74);
             this.BackBt.TabIndex = 18;
             this.BackBt.Text = "Back";
-            this.BackBt.UseVisualStyleBackColor = true;
+            this.BackBt.UseVisualStyleBackColor = false;
             this.BackBt.Click += new System.EventHandler(this.BackBt_Click);
             // 
             // createDataBase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(391, 355);
+            this.ClientSize = new System.Drawing.Size(456, 437);
             this.Controls.Add(this.BackBt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.Paseword);
@@ -149,6 +161,7 @@
             this.Controls.Add(this.textServer);
             this.Controls.Add(this.ServerName);
             this.Controls.Add(this.CreateBT);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "createDataBase";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "createDataBase";
